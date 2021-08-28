@@ -1,0 +1,11 @@
+<div>
+    <label for="name">Hero name: </label>
+    <input id="name" [(ngModel)]="hero.name" placeholder="name">
+  </div>
+  <div>
+    <!-- this is two way data binding. When we use ngModel we equate it to the property value we
+    want to display to the user -->
+    <div>
+      <label for="id">Hero id: </label>
+      <input id="id" [(ngModel)]="hero.id" placeholder="id">
+    </div>
